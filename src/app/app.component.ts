@@ -199,11 +199,51 @@ export class AppComponent {
                 },
                 fieldGroup: [
                   {
-                    type: 'array',
-                    title: 'A list of strings',
-                    items: {
-                      type: 'string',
-                      default: 'bazinga',
+                    key: 'detalles',
+                    type: 'arrayRepeat',
+                    templateOptions: {
+                      addText: 'Detalles',
+                    },
+                    fieldArray: {
+                      fieldGroupClassName: 'row',
+                      fieldGroup: [
+                        {
+                          type: 'input',
+                          className: 'col col-lg-3',
+                          key: 'investmentName',
+                          templateOptions: {
+                            label: 'Name of Investment:',
+                            required: true,
+                          },
+                        },
+                        {
+                          type: 'input',
+                          className: 'col col-lg-3',
+                          key: 'investmentName',
+                          templateOptions: {
+                            label: 'Name of Investment:',
+                            required: true,
+                          },
+                        },
+                        {
+                          type: 'input',
+                          className: 'col col-lg-3',
+                          key: 'investmentName',
+                          templateOptions: {
+                            label: 'Name of Investment:',
+                            required: true,
+                          },
+                        },
+                        {
+                          type: 'input',
+                          className: 'col col-lg-3',
+                          key: 'investmentName',
+                          templateOptions: {
+                            label: 'Name of Investment:',
+                            required: true,
+                          },
+                        },
+                      ],
                     },
                   },
                 ],

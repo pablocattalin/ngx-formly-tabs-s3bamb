@@ -29,7 +29,7 @@ import { ArrayTypeComponent } from './array.type';
           name: 'tabset',
           component: FormlyFieldTabsetComponent,
         },
-        { name: 'array', component: ArrayTypeComponent },
+        { name: 'arrayRepeat', component: ArrayTypeComponent },
       ],
     }),
     FormlyTabsModule,
