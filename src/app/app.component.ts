@@ -212,7 +212,7 @@ export class AppComponent {
                           className: 'col col-lg-3',
                           key: 'investmentName',
                           templateOptions: {
-                            label: 'Name of Investment:',
+                            label: 'Nombre',
                             required: true,
                           },
                         },
@@ -221,25 +221,25 @@ export class AppComponent {
                           className: 'col col-lg-3',
                           key: 'investmentName',
                           templateOptions: {
-                            label: 'Name of Investment:',
+                            label: 'Correo',
                             required: true,
                           },
                         },
                         {
                           type: 'input',
-                          className: 'col col-lg-3',
+                          className: 'col col-lg-2',
                           key: 'investmentName',
                           templateOptions: {
-                            label: 'Name of Investment:',
+                            label: 'Telefono',
                             required: true,
                           },
                         },
                         {
                           type: 'input',
-                          className: 'col col-lg-3',
+                          className: 'col col-lg-4',
                           key: 'investmentName',
                           templateOptions: {
-                            label: 'Name of Investment:',
+                            label: 'Direccion',
                             required: true,
                           },
                         },
